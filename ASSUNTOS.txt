@@ -1,0 +1,25 @@
+ASSUNTOS:
+
+PARTE 1
+0 - Falar do mobile - Finotti
+1 - Configurar ambiente - Herbert
+2 - Criar projeto node - Finotti
+3 - Criar estrutura js e appium - Finotti
+
+PARTE 2
+4 - Inspecionar elementos - Herbert
+5 - Comandos básicos (clicar, digitar, asserts) - Finotti
+6 - Criar cenários de testes - Finotti
+
+PARTE 3
+7 - Passar estrutura para mocha (nova arquitetura) - Finotti
+8 - Rodar os testes no iOS - Herbert
+9 - O que é e porque usar Device Farm - Herbert
+10 - Conhecendo e rodando no BrowserStack - Herbert
+
+App:
+Package: com.qazandoqafood
+Activity: .MainActivity
+
+Instalações
+npm install webdriverio mocha

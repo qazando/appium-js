@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test:android": "PLATFORM=android mocha './test/spec/**/*.js'",
+    "test:ios": "PLATFORM=ios mocha './test/spec/**/*.js'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "webdriverio": "^8.39.1"
-  },
   "dependencies": {
-    "mocha": "^10.6.0"
+    "mocha": "^10.7.0",
+    "webdriverio": "^8.39.1"
   }
 }
